@@ -1,0 +1,11 @@
+#form_titles{
+	float: left;
+}
+
+br{
+	height: 150%;
+}
+
+#post_video_form{
+	overflow: auto;
+}

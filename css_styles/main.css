@@ -1,0 +1,57 @@
+body {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	background-color: #F3F3F3;
+	padding: 0;
+	margin: 0 auto;
+}
+#left_user_nav {
+	float: left;
+	margin-left: 35%;
+}
+
+#right_user_navigation{
+	float: right;
+	margin-right: 35%;
+}
+
+#user_info{
+	overflow: auto;
+}
+#wrap {
+	z-index: 1;
+}
+#main {
+	box-shadow: 0 0 15px gray;
+	border-width: 1px;
+	border-style: dotted;
+	margin: 0 auto;
+	padding: 40px;
+	background-color: #FFFFFF;
+}
+#target_rqsts, #jobs_div{
+	display: none;
+}
+#jobs_div{
+	border-width: 1px;
+	border-style: dotted;
+	padding: 3px;
+	margin: 3px;
+}
+#new_jb_t{
+	width: 50%;
+}
+#sh_hd_jobs{
+	margin-bottom: 20px;
+}
+.delete_job{
+	margin-left: 5px;
+	font-size: 80%;
+}
+h1 {
+	text-align: center;
+	margin: 20px;
+	font-family: Arial, Verdana, sans-serof;
+}
+ul {
+	list-style: none;
+}

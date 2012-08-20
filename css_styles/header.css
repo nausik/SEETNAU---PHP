@@ -1,0 +1,43 @@
+#header{
+	display: block;
+	border-width: 1px;
+	padding: 5px;
+	background: url(../img/design/header/bg_gradient.png) repeat-x left bottom;
+	box-shadow: 0 0 10px gray;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#header_page_navigation{
+	margin-right: 20px;
+	float: right;
+}
+
+#header_navigation{
+	overflow: auto;
+	margin-right: 40px;
+	margin-left: 50px;
+	padding: 10px;
+	color: white;
+}
+
+#header_navigation a:link, #header_navigation a:visited, #header_navigation a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+#header_menu{
+	display: none;
+}
+
+.hdr_nav_button{
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 3%;
+}
+
+.hdr_nav_button:hover{
+	background-color: #614A7A;
+	box-shadow: 0 0 10px gray;
+}

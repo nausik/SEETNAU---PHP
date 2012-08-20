@@ -1,0 +1,13 @@
+#m_message_text, #m_message_title{
+	margin-top; 3px;
+	margin-bottom: 7px;
+	width: 100%;
+}
+		
+#m_message_text{
+	height: 120px;
+}
+		
+#recieved_m{
+	width: 2%;
+}

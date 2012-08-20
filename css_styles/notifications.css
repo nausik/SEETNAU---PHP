@@ -1,0 +1,21 @@
+#notification, #ui_notification, #ui_notification_2 {
+	text-align: center;
+	border-radius: 5px;
+	border-style: dotted;
+	border-width: 1px;
+	background-color: #F1E3FE;
+	display: none;
+	margin: 15px 5px 0px 5px;
+	padding: 10px;
+	font-weight: bold;
+}
+#ui_notification, #ui_notification_2{
+	margin-bottom: 15px;
+}
+#forms {
+	margin: 15px;
+	text-align: center;
+}
+#rec_mail, #resend_pass{
+	width: 95%;
+}

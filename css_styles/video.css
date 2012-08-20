@@ -1,0 +1,26 @@
+.video {
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	margin: 20px 50px 20px 50px;
+	padding: 10px;
+}
+.video_title {
+	background-color: #FBFDD6;
+	border-width: 1px;
+	border-style: dotted;
+	margin-bottom: 10px;
+}
+#video_id_d, .video_id_c, .video_url, .video_body {
+	display: none;
+}
+.video_control {
+	text-align: center;
+}
+#video_url_d, #video_descr_d, #video_tags_d, #video_title_d {
+	width: 98%;
+}
+
+#video_descr_d{
+	height: 50px;
+}

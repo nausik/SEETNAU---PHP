@@ -1,0 +1,30 @@
+<?php
+$errors = array("long_title" => "Title name must be less then 50 symbols long", 
+	"video_uploaded" => "You've already uploaded that video earlier", 
+	"wrong_url" => "Video must be from one of valid hosts", 
+	"message_not_set" => "Please write your message", 
+	"account_not_act" => "Account isn't activated", 
+	"already_signed" => "You are already signed in", 
+	"fields_empty" => "All fields must be filled", 
+	"long_username" => "Username length must be less then 40 symbols", 
+	"incorrect_email" => "Your mail is incorrent", 
+	"user_exists" => "User with such username already exists", 
+	"mail_exists" => "User with such mail already exists", 
+	"account_not_found" => "User not found", 
+	"passwords_arent_same" => "Passwords aren't same", 
+	"cant_find_res" => "You have either recovered your password already or trying to hack SEETNAU", 
+	"not_your_video" => "You're trying to edit another user's video", 
+	"signin_error" => "Login or password is wrong", 
+	"wrong_pass" => "Current password is incorrent", 
+	"incorrect_answer" => "Your answer is wrong");
+
+$service_messages = array("video_updated" => "Your video was successfully updated", 
+	"video_uploaded" => "Video was successfully uploaded", 
+	"message_sent" => "Your message was succesfully sent", 
+	"account_activated" => "Account activated", 
+	"account_registered" => "Check your mail for account validation link", 
+	"signed_in" => "You were succesfully signed in", 
+	"mail_saved" => "Your mail was succesfully changed", 
+	"password_saved" => "You password was succesfully changed", 
+	"check_mail_rec" => "Check your mail for further instructions");
+?>

@@ -1,0 +1,27 @@
+.list_title
+{
+margin: 10px;
+background-color: #FEFAE2;
+padding: 10px;
+border-width: 1px;
+border-style: dotted;
+font-style: oblique;
+font-weight: bold;
+}
+
+#to_name{
+	margin-bottom: 7px;
+}
+
+.list_body{
+line-height: 130%;
+padding: 10px;
+border-width: 1px;
+border-style: dotted;
+display: none;
+margin: 10px;
+}
+
+.friend, .friend_r{
+margin: 8px;
+}

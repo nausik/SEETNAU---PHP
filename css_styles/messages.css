@@ -1,0 +1,37 @@
+.full_message_text, .full_s_message_text, .msid, .s_msid{
+	display: none;
+}
+
+.delete_message, .delete_s_message{
+	float: right;
+}
+
+.message_div, .s_message_div{
+	left: 0;
+	float: left;
+}
+
+.message, .s_message{
+	overflow: auto;
+	border-style: dotted;
+	border-width: 1px;
+	margin: 5px;
+	padding: 5px;
+	padding-right: 20px;
+}
+
+.message_sender, .s_message_receiver{
+	color: blue;
+}
+
+.not_read, .s_not_read{
+	background-color: #EFDEF9;
+}
+
+.s_message_body a:visited, .message_body a:visited{
+	color: #2B587A;
+}
+
+.post_date{
+	margin: 5px;
+}

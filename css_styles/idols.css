@@ -1,0 +1,18 @@
+.user_info_div{
+	border-width: 1px;
+	border-style: dotted;
+	padding: 10px;
+	margin: 5px;
+}
+.user_avatar{
+	margin: 10px;
+}
+.user_info_div{
+	overflow: auto;
+}
+.left_side{
+	float: left;
+}
+.right_side{
+	float: right;
+}
