@@ -1,7 +1,9 @@
 SEETNAU---PHP
 =============
 
-(WARNING: THIS PROJECT IS VERY OLD AND THE CODE QUALITY IS LOW)
+''ruby
+#(WARNING: THIS PROJECT IS VERY OLD AND THE CODE QUALITY IS LOW)
+''
 
 Very old seetnau prototype (not finished), which was written on PHP without normal OOP but with some cool solutions like fully dynamic pages. Seetnau - prototype of the old-forgotten startup idea. But it can be used as (almost) fully functional social network.
 It's pretty easy to install - you only have to create database, open mysql.php (in your browser), check 'Create new tables?' check box and press "Submit" button. After this you only need to uncomment "extension=php_openssl.dll" line in php.ini and mail_send function in functions/send_mail.php. By default it's set to noones gmail account, but you can set it to use yours. After this you just need to write proper domain in config/params.php, so activation messages will work properly. After this you should delete mysql.php. If you'll ever need to edit your mysql config values, it's easy to do by hand (config/mysql_config.php)
